@@ -494,6 +494,35 @@
       </ul>
     </p>
 
+	<example xml:id="ex_anti6">
+      <title>Evaluating indefinite integrals</title>
+      <statement>
+        <p>
+		  Evaluate <m>\int s^n\, ds</m> and $\int s^n\, dn</m>.
+        </p>
+      </statement>
+      <solution>
+        <p>
+			Although these two integral problems appear very similiar at first, their 
+			answers are different. In the first problem the variable 
+			of integration is <m>s</m>, as indicated by the differential <m>ds</m>.
+			The function to be integrated is therefore <m>f(s)=s^n</m>, which 
+			is a power of <m>s</m>. We are asked to find all functions <m>F(s)</m> 
+			such that <m>F'(s)=s^n</m>. You should verify that 
+			<m>F(s)=\frac{1}{n+1} s^{n+1}</m> is one such function, provided 
+			that <m>n\neq -1</m>. Therefore, the indefinte integral is 
+			<me>\int s^n\, ds = \frac{s^{n+1}}{n+1} + C.</me>
+		</p>
+		<p>
+			Turning to the second problem, we find that the differential is <m>dn</m>
+			indicating that the integrand function is <m>f(n)=s^n</m>, an exponential 
+			function with base <m>s</m>. We are asked to find all functions <m>F(n)</m> 
+			such that <m>F'(n)=s^n</m>. You should verify that one such antiderivative 
+			function is <m>\displaystyle F(n) = \frac{s^n}{\ln s}</m>. Therefore, 
+			<me>\int s^n\, dn = \frac{s^n}{\ln s} + C.</me>
+		</p>
+      </solution>
+    </example>  
 
   <paragraphs>
     <title>Initial Value Problems</title>
