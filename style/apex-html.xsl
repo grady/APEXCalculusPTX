@@ -7,11 +7,11 @@
 <!-- String parameters -->
 
 <!-- html layout options -->
-<xsl:param name="webwork.divisional.static" select="'no'"/>
+<xsl:param name="webwork.divisional.static" select="'yes'"/>
 <!-- <xsl:param name="html.knowl.exercise.sectional" select="'no'"/> -->
 <!-- <xsl:param name="html.knowl.example" select="'no'"/> -->
 <!-- uncomment next line to enable hypothesis annotation -->
-<xsl:param name="html.annotation" select="'hypothesis'"/>
+<!-- <xsl:param name="html.annotation" select="'hypothesis'"/> -->
 
 <!-- uncomment to turn off hints, answers, and solutions for divisional exercises -->
 <xsl:param name="exercise.divisional.hint" select="'no'"/>
