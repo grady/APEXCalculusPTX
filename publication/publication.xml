@@ -11,7 +11,7 @@
         <index-page ref="apex-calculus"/>
         <video privacy="yes"/>
         <!-- baseurl should not have a trailing slash -->
-        <baseurl href="https://opentext.uleth.ca/apex-calculus"/>
+        <baseurl href="https://laulima.hawaii.edu/x/e682zi"/>
         <knowl example="no"/>
     </html>
     <!-- PDF-Specific Options -->
