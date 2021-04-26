@@ -180,6 +180,11 @@
       Notice how well this secant line approximates <m>f</m> between those two points <mdash/> it is a common practice to approximate functions with straight lines.
     </p>
 
+    <figure xml:id="geo_deriv_zoom">
+      <caption>Zooming in to the tangent line at a point. </caption>
+      <interactive xml:id="geogebra_deriv_zoom" geogebra="hktx48yf" width="98%" aspect="16:9"/>
+    </figure>
+    
     <sbsgroup widths="47% 47%" margins="0%">
       <sidebyside>
         <figure xml:id="fig_derivfalling">
