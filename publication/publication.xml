@@ -12,6 +12,7 @@
         <video privacy="yes"/>
         <!-- baseurl should not have a trailing slash -->
         <baseurl href="https://laulima.hawaii.edu/x/e682zi"/>
+        <css style="default" colors="maroon_grey"/>
         <knowl example="no"/>
     </html>
     <!-- PDF-Specific Options -->
