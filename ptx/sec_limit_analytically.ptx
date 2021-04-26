@@ -573,6 +573,16 @@
         Later we will show that we can also consider <m>\theta \leq 0</m>.)
       </p>
 
+      <figure xml:id="geo_squeeze_sinx">
+	<caption>
+	  The unit circle and triangles to be used in the squeeze
+	  theorem. Moving the blue point changes the angle
+	  <m>\theta</m> and recalculates the areas of the three
+	  regions.
+	</caption>
+	<interactive xml:id="geogebra_squeeze_sinx" geogebra="vhtmpkr3" width="98%" aspect="16:9"/>
+      </figure>
+      
       <figure xml:id="fig_squeeze_sinx">
         <caption>The unit circle and related triangles</caption>
         <!-- START figures/fig_squeeze1.tex -->
