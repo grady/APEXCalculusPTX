@@ -26,4 +26,13 @@
     <!-- <xsl:template match="figure[starts-with(@xml:id, 'vid')]" /> -->
     <!-- <xsl:template match="p[starts-with(@xml:id, 'vidint')]" /> -->
     <!-- <xsl:template match="aside[starts-with(@xml:id, 'vidnote')]" /> -->
+
+    <!-- Dont create excessive small knowls to speed up build process-->
+<xsl:template match="p|exercise|answer|solution|exercisegroup|mrow|li" mode="xref-as-knowl">
+    <xsl:value-of select="false()" />
+</xsl:template>
+
+<!-- Don't create standalone video-audio pages for print links -->
+<xsl:template match="audio|video" mode="media-standalone-page"/>
+    
 </xsl:stylesheet>
